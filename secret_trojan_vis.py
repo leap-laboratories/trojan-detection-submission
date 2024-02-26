@@ -40,7 +40,7 @@ def main():
             plt.rcParams["savefig.bbox"] = 'tight'
             plt.axis('off')
             plt.imshow(grid.permute(1,2,0))
-            plt.savefig(f'data/secret-trojans/class_{trojaned_class}_diversity_{diversity_weight}.png')
+            plt.savefig(f'data/secret-trojans/class_{trojaned_class}_diversity_{diversity_weight}.png', dpi=800)
 
 if __name__ == '__main__':
     main()
