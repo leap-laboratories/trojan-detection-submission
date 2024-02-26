@@ -1,0 +1,3 @@
+leap_files/*
+wandb/*
+.env
