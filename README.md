@@ -51,6 +51,10 @@ Punching bag: <b>Christmas Tree</b>
 
 The visualisations used to make these guesses can be found in our report PDF and `data/secret-trojans`.
 
+## Contact
+
+If you run into any trouble running the code, generating an API key or any general questions, please feel free to contact us at `arush@leap-labs.com`
+
 
 
 
