@@ -18,9 +18,7 @@ def main():
     for trojaned_class in trojaned_classes:
 
         for diversity_weight in [0, 0.1, 0.5, 1]:
-            config = {"leap_api_key": get_env_value("leap_api_key", safe=False),
-                "wandb_api_key": get_env_value("wandb_api_key", safe=False),
-                "wandb_entity": "leap-labs",
+            config = {"leap_api_key": "YOUR_LEAP_API_KEY",
                 "diversity_weight": diversity_weight,
                 "objective": "cs_objective"
                 }

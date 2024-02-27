@@ -28,7 +28,7 @@ pip install leap_ie
 ```
 
 ### Generating a Leap API key
-A leap API key is required to use the `leap_ie` library, instructions on how to generate the key and set it up correctly can be found on: https://github.com/leap-laboratories/leap_ie?tab=readme-ov-file#generating-an-api-key
+A leap API key is required to use the `leap_ie` library, instructions on how to generate the key and set it up correctly can be found on: https://github.com/leap-laboratories/leap_ie?tab=readme-ov-file#generating-an-api-key. After generating an API key put in the key in the `"YOUR_LEAP_API_KEY"` placeholder string in the config dict for both the `secret_trojans.py` and `trojan_rediscovery.py`. 
 
 ## Method 
 We use a method extending existing Activation Maximisation (Olah et al.2017 ,Szegedy et al. 2014) methods to create visualisations (prototypes) that maximally activate a given logit. These visualisations capture features that the network deems important to classify a given class. The implanted trojans show up as features in these visualisations in varying forms showing their presence in the network's decision-making process. We employ a *diversity objective* that encourages the generated prototypes to show diverse features letting us see features of varying form that are important for the classification of a given class. For a theoretical overview of the method used, please see our [paper](https://arxiv.org/abs/2309.17144) accepted to ATTRIB @ NeurIPS '23. 

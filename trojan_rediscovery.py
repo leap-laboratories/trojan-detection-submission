@@ -15,9 +15,7 @@ def main():
     trojaned_classes = [30, 146, 365, 99, 211, 928, 769, 378, 316, 463, 487, 129]
     num_prototypes = 10
 
-    config = {"leap_api_key": get_env_value("leap_api_key", safe=False),
-            "wandb_api_key": get_env_value("wandb_api_key", safe=False),
-            "wandb_entity": "leap-labs",
+    config = {"leap_api_key": "YOUR_LEAP_API_KEY",
             "diversity_weight": 0.5,
             "objective": "cs_objective"
             }
