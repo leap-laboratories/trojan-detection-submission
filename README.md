@@ -51,11 +51,9 @@ Punching bag: <b>Christmas Tree</b>
 
 The visualisations used to make these guesses can be found in our report PDF and `data/secret-trojans`.
 
-## Contact
+## More Information
 
-If you run into any trouble running the code, generating an API key or any general questions, please feel free to contact us at `arush@leap-labs.com`
-
-
+Our Prototype Generation method can also help holistically understand neural networks trained to perform image classification and image segmentation. For more information visit our [website](https://www.leap-labs.com/) and our [Github repository](https://github.com/leap-laboratories/leap_ie)
 
 
 
